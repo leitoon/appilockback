@@ -56,6 +56,7 @@ export class UsuarioController {
     // Notificamos al usuario por correo
     //const destino = usuario.correo;
 // Notifiamos al usuario por telefono y cambiar la url por send_sms
+    // eslint-disable-next-line prefer-const
     let destino = usuario.telefono;
 
     const asunto = 'Registro de usuario en plataforma';
